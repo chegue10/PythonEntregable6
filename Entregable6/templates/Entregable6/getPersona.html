@@ -7,6 +7,13 @@
     <title>Get Persona</title>
 </head>
 <body>
-    
+    <h1>Bienvenido a la familia {{ apellido }}</h1>
+    <h2>Los integrantes de esta familia son:</h2>
+    <ul>
+        <li>{{ uno.nombre }} {{ apellido }} DNI: {{ uno.dni }} FN:  {{ uno.fecha_nacimiento }}</li>
+        <li>{{ dos.nombre }} {{ apellido }} DNI: {{ dos.dni }} FN:  {{ dos.fecha_nacimiento }}</li>
+        <li>{{ tres.nombre }} {{ apellido }} DNI: {{ tres.dni }} FN:  {{ tres.fecha_nacimiento }}</li>
+    </ul>
+
 </body>
 </html>
